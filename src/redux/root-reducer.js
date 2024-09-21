@@ -1,4 +1,4 @@
-//Reducer princial para armazenar outro reducers dentro dele
+//Reducer principal para armazenar outro reducers dentro dele
 
 import { combineReducers } from "redux"; // Pegar todos os reducers e  guarda dentro do root.
 
