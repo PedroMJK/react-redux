@@ -3,7 +3,7 @@ import UserActionTypes from "./action-types";
 
 const initialState = {
     currentUser: null,
-}
+};
 
 const  userReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -12,7 +12,7 @@ const  userReducer = (state = initialState, action) => {
         case UserActionTypes.LOGOUT:
             return { ... state, currentUser: null}
         default:
-            return state
+            return state;
     }
     
 };
